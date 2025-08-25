@@ -9,7 +9,7 @@ const renderEvent = (event, touchableOpacityProps) => (
     {...touchableOpacityProps}
     style={{
       backgroundColor: event.color || "#fff",
-      padding: 10,
+      padding: 2,
       borderRadius: 5,
       flexDirection: "column",
       alignItems: "center",

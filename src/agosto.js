@@ -1,4 +1,4 @@
-export default events = [
+const events = [
   {
     title: "Crescente - Lua com metade iluminada",
     start: new Date(2025, 7, 1, 10, 0),
@@ -245,3 +245,5 @@ export default events = [
     emoji: "🔭",
   },
 ];
+
+export default events;

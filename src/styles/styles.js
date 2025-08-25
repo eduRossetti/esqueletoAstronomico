@@ -1,6 +1,325 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
+
+const { width, height } = Dimensions.get('window');
 
 export default StyleSheet.create({
-    container: { flex: 1, justifyContent: 'center', alignItems: 'center' },
-    titulo: { fontSize: 20, fontWeight: 'bold' }
+    container: { 
+        flex: 1, 
+        justifyContent: 'center', 
+        alignItems: 'center' 
+    },
+    titulo: { 
+        fontSize: 20, 
+        fontWeight: 'bold' 
+    },
+    // Novos estilos para a página inicial melhorada
+    homeContainer: {
+        flex: 1,
+        backgroundColor: '#0B1426',
+    },
+    gradientBackground: {
+        flex: 1,
+    },
+    starField: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+    },
+    star: {
+        position: 'absolute',
+        backgroundColor: '#ffffff',
+        borderRadius: 50,
+        shadowColor: '#ffffff',
+        shadowOffset: { width: 0, height: 0 },
+        shadowOpacity: 0.8,
+        shadowRadius: 3,
+        elevation: 5,
+    },
+    headerSection: {
+        paddingHorizontal: 20,
+        paddingTop: 60,
+        paddingBottom: 20,
+        alignItems: 'center',
+    },
+    appTitle: {
+        fontSize: 32,
+        fontWeight: 'bold',
+        color: '#ffffff',
+        textAlign: 'center',
+        marginBottom: 10,
+        textShadowColor: 'rgba(138, 43, 226, 0.5)',
+        textShadowOffset: { width: 0, height: 2 },
+        textShadowRadius: 10,
+    },
+    subtitle: {
+        fontSize: 16,
+        color: '#B0C4DE',
+        textAlign: 'center',
+        marginBottom: 30,
+        fontStyle: 'italic',
+    },
+    astronomyIcon: {
+        fontSize: 60,
+        marginBottom: 15,
+    },
+    currentTime: {
+        fontSize: 20,
+        color: '#FFD700',
+        fontWeight: 'bold',
+        marginTop: 10,
+        textShadowColor: 'rgba(255, 215, 0, 0.5)',
+        textShadowOffset: { width: 0, height: 1 },
+        textShadowRadius: 5,
+    },
+    navigationSection: {
+        paddingHorizontal: 20,
+        paddingBottom: 30,
+    },
+    menuButton: {
+        backgroundColor: 'rgba(75, 0, 130, 0.8)',
+        paddingVertical: 18,
+        paddingHorizontal: 25,
+        borderRadius: 15,
+        marginVertical: 8,
+        borderWidth: 1,
+        borderColor: 'rgba(138, 43, 226, 0.6)',
+        shadowColor: '#8A2BE2',
+        shadowOffset: { width: 0, height: 4 },
+        shadowOpacity: 0.3,
+        shadowRadius: 8,
+        elevation: 5,
+    },
+    specialButton: {
+        backgroundColor: 'rgba(255, 215, 0, 0.15)',
+        borderColor: 'rgba(255, 215, 0, 0.4)',
+        shadowColor: '#FFD700',
+    },
+    menuButtonText: {
+        color: '#ffffff',
+        fontSize: 18,
+        fontWeight: '600',
+        textAlign: 'center',
+    },
+    menuIcon: {
+        fontSize: 24,
+        marginRight: 10,
+    },
+    buttonContent: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    infoSection: {
+        backgroundColor: 'rgba(25, 25, 112, 0.3)',
+        marginHorizontal: 20,
+        marginBottom: 20,
+        padding: 20,
+        borderRadius: 15,
+        borderWidth: 1,
+        borderColor: 'rgba(138, 43, 226, 0.3)',
+    },
+    infoTitle: {
+        color: '#FFD700',
+        fontSize: 18,
+        fontWeight: 'bold',
+        marginBottom: 10,
+        textAlign: 'center',
+    },
+    infoText: {
+        color: '#E6E6FA',
+        fontSize: 14,
+        textAlign: 'center',
+        lineHeight: 20,
+    },
+    moonPhase: {
+        fontSize: 30,
+        textAlign: 'center',
+        marginVertical: 10,
+    },
+    moonPhaseContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    moonInfo: {
+        marginLeft: 15,
+        flex: 1,
+    },
+    moonPhaseName: {
+        color: '#FFD700',
+        fontSize: 18,
+        fontWeight: 'bold',
+    },
+    moonDescription: {
+        color: '#B0C4DE',
+        fontSize: 14,
+        marginTop: 2,
+    },
+    statsContainer: {
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'space-between',
+        marginTop: 20,
+        paddingTop: 15,
+        borderTopWidth: 1,
+        borderTopColor: 'rgba(138, 43, 226, 0.3)',
+    },
+    statItem: {
+        alignItems: 'center',
+        width: '48%',
+        marginBottom: 10,
+    },
+    statLabel: {
+        color: '#B0C4DE',
+        fontSize: 12,
+        marginBottom: 5,
+        textAlign: 'center',
+    },
+    statValue: {
+        color: '#FFD700',
+        fontSize: 16,
+        fontWeight: 'bold',
+        textAlign: 'center',
+    },
+    sectionTitle: {
+        color: '#FFD700',
+        fontSize: 18,
+        fontWeight: 'bold',
+        marginBottom: 15,
+        textAlign: 'center',
+    },
+    constellationSection: {
+        marginHorizontal: 20,
+        marginBottom: 20,
+        padding: 20,
+        backgroundColor: 'rgba(25, 25, 112, 0.3)',
+        borderRadius: 15,
+        borderWidth: 1,
+        borderColor: 'rgba(138, 43, 226, 0.3)',
+    },
+    constellationCard: {
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    constellationEmoji: {
+        fontSize: 40,
+        marginRight: 15,
+    },
+    constellationInfo: {
+        flex: 1,
+    },
+    constellationName: {
+        color: '#ffffff',
+        fontSize: 20,
+        fontWeight: 'bold',
+        marginBottom: 5,
+    },
+    constellationDescription: {
+        color: '#B0C4DE',
+        fontSize: 14,
+    },
+    eventsSection: {
+        marginHorizontal: 20,
+        marginBottom: 20,
+        padding: 20,
+        backgroundColor: 'rgba(25, 25, 112, 0.3)',
+        borderRadius: 15,
+        borderWidth: 1,
+        borderColor: 'rgba(138, 43, 226, 0.3)',
+    },
+    eventCard: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginBottom: 12,
+        padding: 12,
+        backgroundColor: 'rgba(75, 0, 130, 0.4)',
+        borderRadius: 10,
+    },
+    eventIcon: {
+        fontSize: 24,
+        marginRight: 12,
+    },
+    eventInfo: {
+        flex: 1,
+    },
+    eventTitle: {
+        color: '#ffffff',
+        fontSize: 16,
+        fontWeight: '600',
+        marginBottom: 2,
+    },
+    eventDate: {
+        color: '#FFD700',
+        fontSize: 14,
+        fontWeight: 'bold',
+    },
+    tipSection: {
+        marginHorizontal: 20,
+        marginBottom: 20,
+        padding: 20,
+        backgroundColor: 'rgba(46, 125, 50, 0.3)',
+        borderRadius: 15,
+        borderWidth: 1,
+        borderColor: 'rgba(76, 175, 80, 0.4)',
+    },
+    tipCard: {
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    tipIcon: {
+        fontSize: 32,
+        marginRight: 15,
+    },
+    tipInfo: {
+        flex: 1,
+    },
+    eventDate: {
+        color: '#FFD700',
+        fontSize: 14,
+        fontWeight: 'bold',
+    },
+    eventTime: {
+        color: '#B0C4DE',
+        fontSize: 12,
+        marginTop: 2,
+    },
+    eventDescription: {
+        color: '#E6E6FA',
+        fontSize: 12,
+        marginTop: 4,
+        fontStyle: 'italic',
+    },
+    tipSection: {
+        marginHorizontal: 20,
+        marginBottom: 20,
+        padding: 20,
+        backgroundColor: 'rgba(255, 215, 0, 0.1)',
+        borderRadius: 15,
+        borderWidth: 1,
+        borderColor: 'rgba(255, 215, 0, 0.3)',
+    },
+    tipCard: {
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    tipIcon: {
+        fontSize: 30,
+        marginRight: 15,
+    },
+    tipInfo: {
+        flex: 1,
+    },
+    tipTitle: {
+        color: '#FFD700',
+        fontSize: 16,
+        fontWeight: 'bold',
+        marginBottom: 5,
+    },
+    tipText: {
+        color: '#E6E6FA',
+        fontSize: 14,
+        lineHeight: 20,
+    }
 })
