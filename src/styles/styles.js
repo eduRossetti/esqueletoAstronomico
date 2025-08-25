@@ -321,5 +321,47 @@ export default StyleSheet.create({
         color: '#E6E6FA',
         fontSize: 14,
         lineHeight: 20,
+    },
+    // Estilos específicos para a tela de calendário
+    calendarContainer: {
+        flex: 1,
+        paddingTop: 50,
+        paddingHorizontal: 15,
+    },
+    calendarHeader: {
+        alignItems: 'center',
+        marginBottom: 20,
+        paddingBottom: 15,
+    },
+    calendarTitle: {
+        fontSize: 28,
+        fontWeight: 'bold',
+        color: '#ffffff',
+        textAlign: 'center',
+        marginBottom: 8,
+        textShadowColor: 'rgba(138, 43, 226, 0.8)',
+        textShadowOffset: { width: 0, height: 2 },
+        textShadowRadius: 8,
+    },
+    calendarSubtitle: {
+        fontSize: 16,
+        color: '#FFD700',
+        textAlign: 'center',
+        fontWeight: '600',
+    },
+    calendarWrapper: {
+        backgroundColor: 'rgba(25, 25, 112, 0.3)',
+        borderRadius: 20,
+        padding: 15,
+        borderWidth: 1,
+        borderColor: 'rgba(138, 43, 226, 0.4)',
+        shadowColor: '#8A2BE2',
+        shadowOffset: {
+            width: 0,
+            height: 6,
+        },
+        shadowOpacity: 0.3,
+        shadowRadius: 10,
+        elevation: 8,
     }
 })
