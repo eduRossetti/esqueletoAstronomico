@@ -1,241 +1,247 @@
-export const EventosAgosto = {
-  eventos_astronomicos: [
-    {
-      tipo: "Fases da Lua",
-      eventos: [
-        {
-          data: "01/08",
-          hora: "10h",
-          nome: "Quarto Crescente",
-          explicacao: "Lua com metade iluminada (crescendo)"
-        },
-        {
-          data: "09/08",
-          hora: "05h",
-          nome: "Lua Cheia",
-          explicacao: "Lua totalmente iluminada"
-        },
-        {
-          data: "16/08",
-          hora: "02h",
-          nome: "Quarto Minguante",
-          explicacao: "Lua com metade iluminada (minguando)"
-        },
-        {
-          data: "23/08",
-          hora: "03h",
-          nome: "Lua Nova",
-          explicacao: "Lua totalmente escura"
-        },
-        {
-          data: "31/08",
-          hora: "03h",
-          nome: "Quarto Crescente",
-          explicacao: "Lua com metade iluminada (crescendo)"
-        }
-      ]
-    },
-    {
-      tipo: "Apogeu e Perigeu da Lua",
-      eventos: [
-        {
-          data: "01/08",
-          hora: "18h",
-          nome: "Lua no apogeu",
-          explicacao: "Ponto mais distante da Terra"
-        },
-        {
-          data: "14/08",
-          hora: "15h",
-          nome: "Lua no perigeu",
-          explicacao: "Ponto mais próximo da Terra"
-        },
-        {
-          data: "29/08",
-          hora: "13h",
-          nome: "Lua no apogeu",
-          explicacao: "Ponto mais distante da Terra"
-        }
-      ]
-    },
-    {
-      tipo: "Conjunção/Aproximação",
-      eventos: [
-        {
-          data: "03/08",
-          hora: "23h",
-          nome: "Antares 0,5° ao norte da Lua",
-          explicacao: "Estrela próxima visualmente da Lua"
-        },
-        {
-          data: "12/08",
-          hora: "09h",
-          nome: "Saturno 3,5° ao sul da Lua",
-          explicacao: "Planeta próximo visualmente da Lua"
-        },
-        {
-          data: "12/08",
-          hora: "10h",
-          nome: "Netuno 2,5° ao sul da Lua",
-          explicacao: "Planeta próximo visualmente da Lua"
-        },
-        {
-          data: "16/08",
-          hora: "13h",
-          nome: "Pleiades 0,9° ao sul da Lua",
-          explicacao: "Aglomerado próximo visualmente"
-        },
-        {
-          data: "16/08",
-          hora: "15h",
-          nome: "Urano 5° ao sul da Lua",
-          explicacao: "Planeta próximo visualmente da Lua"
-        },
-        {
-          data: "17/08",
-          hora: "06h",
-          nome: "Aldebara 11° ao sul da Lua",
-          explicacao: "Estrela próxima visualmente da Lua"
-        },
-        {
-          data: "19/08",
-          hora: "19h",
-          nome: "Júpiter 4,5° ao sul da Lua",
-          explicacao: "Planeta próximo visualmente da Lua"
-        },
-        {
-          data: "20/08",
-          hora: "08h",
-          nome: "Pollux 2,5° ao norte da Lua",
-          explicacao: "Estrela próxima visualmente da Lua"
-        },
-        {
-          data: "21/08",
-          hora: "15h",
-          nome: "Mercúrio 3,5° ao sul da Lua",
-          explicacao: "Planeta próximo visualmente da Lua"
-        },
-        {
-          data: "23/08",
-          hora: "02h",
-          nome: "Regulus 1° ao sul da Lua",
-          explicacao: "Estrela próxima visualmente da Lua"
-        },
-        {
-          data: "26/08",
-          hora: "11h",
-          nome: "Marte 2,5° ao norte da Lua",
-          explicacao: "Planeta próximo visualmente da Lua"
-        },
-        {
-          data: "27/08",
-          hora: "10h",
-          nome: "Spica 1° ao norte da Lua",
-          explicacao: "Estrela próxima visualmente da Lua"
-        },
-        {
-          data: "31/08",
-          hora: "07h",
-          nome: "Antares 0,5° ao norte da Lua",
-          explicacao: "Estrela próxima visualmente da Lua"
-        }
-      ]
-    },
-    {
-      tipo: "Chuva de Meteoros",
-      eventos: [
-        {
-          data: "07/08",
-          nome: "Máxima atividade dos eta-Eridanídeos",
-          explicacao: "Pico da chuva de meteoros eta-Eridanídeos"
-        },
-        {
-          data: "12/08",
-          nome: "Máxima atividade dos Perseídeos",
-          explicacao: "Pico da chuva de meteoros Perseídeos"
-        },
-        {
-          data: "16/08",
-          nome: "Máxima atividade dos kapa-Cignídeos",
-          explicacao: "Pico da chuva de meteoros kapa-Cignídeos"
-        }
-      ]
-    },
-    {
-      tipo: "Ocultação",
-      eventos: [
-        {
-          data: "05/08",
-          hora: "00h",
-          nome: "Ocultação de 43 Ophiuchi pela Lua",
-          explicacao: "Estrela desaparece atrás da Lua"
-        },
-        {
-          data: "10/08",
-          hora: "23h",
-          nome: "Ocultação de lambda Aquarii pela Lua",
-          explicacao: "Estrela desaparece atrás da Lua"
-        },
-        {
-          data: "18/08",
-          hora: "02h",
-          nome: "Ocultação de HIP 25730 pela Lua",
-          explicacao: "Estrela desaparece atrás da Lua"
-        },
-        {
-          data: "19/08",
-          hora: "05h",
-          nome: "Ocultação de 53 Aurigae pela Lua",
-          explicacao: "Estrela desaparece atrás da Lua"
-        },
-        {
-          data: "30/08",
-          hora: "20h",
-          nome: "Ocultação de HIP 78650 pela Lua",
-          explicacao: "Estrela desaparece atrás da Lua"
-        }
-      ]
-    },
-    {
-      tipo: "Evento Planetário",
-      eventos: [
-        {
-          data: "11/08",
-          hora: "04h",
-          nome: "Mercúrio estacionário",
-          explicacao: "Mudança no movimento aparente"
-        },
-        {
-          data: "11/08",
-          hora: "18h",
-          nome: "Ceres estacionário",
-          explicacao: "Mudança no movimento aparente"
-        },
-        {
-          data: "12/08",
-          hora: "02h",
-          nome: "Vênus 0,9° ao sul de Júpiter",
-          explicacao: "Planetas próximos no céu"
-        },
-        {
-          data: "19/08",
-          hora: "07h",
-          nome: "Mercúrio em máxima elongação (19° Oeste)",
-          explicacao: "Melhor visibilidade de Mercúrio"
-        },
-        {
-          data: "24/08",
-          hora: "04h",
-          nome: "Urano em quadratura",
-          explicacao: "Ângulo de 90° em relação ao Sol"
-        },
-        {
-          data: "27/08",
-          hora: "09h",
-          nome: "Mercúrio no periélio",
-          explicacao: "Ponto mais próximo do Sol"
-        }
-      ]
-    }
-  ]
-}
+export default events = [
+  {
+    title: "Crescente - Lua com metade iluminada",
+    start: new Date(2025, 7, 1, 10, 0),
+    end: new Date(2025, 7, 1, 11, 0),
+    color: "#dcb804",
+    emoji: "🌙",
+  },
+  {
+    title: "Apogeu - Lua ponto mais distante da Terra",
+    start: new Date(2025, 7, 1, 18, 0),
+    end: new Date(2025, 7, 1, 19, 0),
+    color: "#dcb804",
+    emoji: "🌙",
+  },
+  {
+    title: "Antares - 0,5° ao norte da Lua",
+    start: new Date(2025, 7, 3, 23, 0),
+    end: new Date(2025, 7, 4, 0, 0),
+    color: "#ff6f61",
+    emoji: "🔭",
+  },
+  {
+    title: "Ocultação - 43 Ophiuchi pela Lua",
+    start: new Date(2025, 7, 5, 0, 0),
+    end: new Date(2025, 7, 5, 1, 0),
+    color: "#636363",
+    emoji: "🌑",
+  },
+  {
+    title: "Meteoros - eta-Eridanídeos atividade máxima",
+    start: new Date(2025, 7, 7, 0, 0),
+    end: new Date(2025, 7, 8, 0, 59),
+    color: "#8a2be2",
+    emoji: "💫",
+  },
+  {
+    title: "Cheia - Lua totalmente iluminada",
+    start: new Date(2025, 7, 9, 5, 0),
+    end: new Date(2025, 7, 9, 6, 0),
+    color: "#dcb804",
+    emoji: "🌙",
+  },
+  {
+    title: "Ocultação - lambda Aquarii pela Lua",
+    start: new Date(2025, 7, 10, 23, 0),
+    end: new Date(2025, 7, 11, 0, 0),
+    color: "#636363",
+    emoji: "🌑",
+  },
+  {
+    title: "Mercúrio - estacionário",
+    start: new Date(2025, 7, 11, 4, 0),
+    end: new Date(2025, 7, 11, 5, 0),
+    color: "#0099cc",
+    emoji: "🪐",
+  },
+  {
+    title: "Ceres - estacionário",
+    start: new Date(2025, 7, 11, 18, 0),
+    end: new Date(2025, 7, 11, 19, 0),
+    color: "#0099cc",
+    emoji: "🪐",
+  },
+  {
+    title: "Vênus - 0,9° ao sul de Júpiter",
+    start: new Date(2025, 7, 12, 2, 0),
+    end: new Date(2025, 7, 12, 3, 0),
+    color: "#0099cc",
+    emoji: "🪐",
+  },
+  {
+    title: "Meteoros - Perseídeos atividade máxima",
+    start: new Date(2025, 7, 12, 0, 0),
+    end: new Date(2025, 7, 13, 0, 59),
+    color: "#8a2be2",
+    emoji: "💫",
+  },
+  {
+    title: "Saturno - 3,5° ao sul da Lua",
+    start: new Date(2025, 7, 12, 9, 0),
+    end: new Date(2025, 7, 12, 10, 0),
+    color: "#0099cc",
+    emoji: "🪐",
+  },
+  {
+    title: "Netuno - 2,5° ao sul da Lua",
+    start: new Date(2025, 7, 12, 10, 0),
+    end: new Date(2025, 7, 12, 11, 0),
+    color: "#0099cc",
+    emoji: "🪐",
+  },
+  {
+    title: "Perigeu - Lua ponto mais próximo da Terra",
+    start: new Date(2025, 7, 14, 15, 0),
+    end: new Date(2025, 7, 14, 16, 0),
+    color: "#dcb804",
+    emoji: "🌙",
+  },
+  {
+    title: "Meteoros - kapa-Cignídeos atividade máxima",
+    start: new Date(2025, 7, 16, 0, 0),
+    end: new Date(2025, 7, 17, 0, 59),
+    color: "#8a2be2",
+    emoji: "💫",
+  },
+  {
+    title: "Minguante - Lua com metade iluminada",
+    start: new Date(2025, 7, 16, 2, 0),
+    end: new Date(2025, 7, 16, 3, 0),
+    color: "#dcb804",
+    emoji: "🌙",
+  },
+  {
+    title: "Pleiades - 0,9° ao sul da Lua",
+    start: new Date(2025, 7, 16, 13, 0),
+    end: new Date(2025, 7, 16, 14, 0),
+    color: "#ff6f61",
+    emoji: "🔭",
+  },
+  {
+    title: "Urano - 5° ao sul da Lua",
+    start: new Date(2025, 7, 16, 15, 0),
+    end: new Date(2025, 7, 16, 16, 0),
+    color: "#0099cc",
+    emoji: "🪐",
+  },
+  {
+    title: "Aldebara - 11° ao sul da Lua",
+    start: new Date(2025, 7, 17, 6, 0),
+    end: new Date(2025, 7, 17, 7, 0),
+    color: "#ff6f61",
+    emoji: "🔭",
+  },
+  {
+    title: "Ocultação - HIP 25730 pela Lua",
+    start: new Date(2025, 7, 18, 2, 0),
+    end: new Date(2025, 7, 18, 3, 0),
+    color: "#636363",
+    emoji: "🌑",
+  },
+  {
+    title: "Ocultação - 53 Aurigae pela Lua",
+    start: new Date(2025, 7, 19, 5, 0),
+    end: new Date(2025, 7, 19, 6, 0),
+    color: "#636363",
+    emoji: "🌑",
+  },
+  {
+    title: "Elongação - Mercúrio máxima (19° Oeste)",
+    start: new Date(2025, 7, 19, 7, 0),
+    end: new Date(2025, 7, 19, 8, 0),
+    color: "#0099cc",
+    emoji: "🪐",
+  },
+  {
+    title: "Júpiter - 4,5° ao sul da Lua",
+    start: new Date(2025, 7, 19, 19, 0),
+    end: new Date(2025, 7, 19, 20, 0),
+    color: "#0099cc",
+    emoji: "🪐",
+  },
+  {
+    title: "Pollux - 2,5° ao norte da Lua",
+    start: new Date(2025, 7, 20, 8, 0),
+    end: new Date(2025, 7, 20, 9, 0),
+    color: "#ff6f61",
+    emoji: "🔭",
+  },
+  {
+    title: "Mercúrio - 3,5° ao sul da Lua",
+    start: new Date(2025, 7, 21, 15, 0),
+    end: new Date(2025, 7, 21, 16, 0),
+    color: "#0099cc",
+    emoji: "🪐",
+  },
+  {
+    title: "Regulus - 1° ao sul da Lua",
+    start: new Date(2025, 7, 23, 2, 0),
+    end: new Date(2025, 7, 23, 3, 0),
+    color: "#ff6f61",
+    emoji: "🔭",
+  },
+  {
+    title: "Nova - Lua totalmente escura",
+    start: new Date(2025, 7, 23, 3, 0),
+    end: new Date(2025, 7, 23, 4, 0),
+    color: "#dcb804",
+    emoji: "🌙",
+  },
+  {
+    title: "Quadratura - Urano em (90° do Sol)",
+    start: new Date(2025, 7, 24, 4, 0),
+    end: new Date(2025, 7, 24, 5, 0),
+    color: "#0099cc",
+    emoji: "🪐",
+  },
+  {
+    title: "Marte - 2,5° ao norte da Lua",
+    start: new Date(2025, 7, 26, 11, 0),
+    end: new Date(2025, 7, 26, 12, 0),
+    color: "#0099cc",
+    emoji: "🪐",
+  },
+  {
+    title: "Periélio - Mercúrio ponto mais próximo do Sol",
+    start: new Date(2025, 7, 27, 9, 0),
+    end: new Date(2025, 7, 27, 10, 0),
+    color: "#0099cc",
+    emoji: "🪐",
+  },
+  {
+    title: "Spica - 1° ao norte da Lua",
+    start: new Date(2025, 7, 27, 10, 0),
+    end: new Date(2025, 7, 27, 11, 0),
+    color: "#ff6f61",
+    emoji: "🔭",
+  },
+  {
+    title: "Apogeu - Lua ponto mais distante da Terra",
+    start: new Date(2025, 7, 29, 13, 0),
+    end: new Date(2025, 7, 29, 14, 0),
+    color: "#dcb804",
+    emoji: "🌙",
+  },
+  {
+    title: "Ocultação - HIP 78650 pela Lua",
+    start: new Date(2025, 7, 30, 20, 0),
+    end: new Date(2025, 7, 30, 21, 0),
+    color: "#636363",
+    emoji: "🌑",
+  },
+  {
+    title: "Crescente - Lua com metade iluminada",
+    start: new Date(2025, 7, 31, 3, 0),
+    end: new Date(2025, 7, 31, 4, 0),
+    color: "#dcb804",
+    emoji: "🌙",
+  },
+  {
+    title: "Antares - 0,5° ao norte da Lua",
+    start: new Date(2025, 7, 31, 7, 0),
+    end: new Date(2025, 7, 31, 8, 0),
+    color: "#ff6f61",
+    emoji: "🔭",
+  },
+];
